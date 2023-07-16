@@ -32,7 +32,6 @@ db.mongoose
   app.use(express.static("public"));
   app.use(bodyParser.urlencoded({ extended: true }))
 
-// simple route
 // app.get("/", (req, res) => {
 //   res.sendFile(path.join(__dirname + '/public/index.html'));
 // });

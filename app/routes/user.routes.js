@@ -3,7 +3,7 @@ module.exports = app => {
     const router = require("express").Router();
 
 
-    router.post('/signup', userController.create);
+    router.post('/register', userController.create);
     router.post('/signin', userController.authenticate);
     app.use("/api/auth", router);
 };
